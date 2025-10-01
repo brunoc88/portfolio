@@ -6,16 +6,19 @@ const NavBar = () => {
             <nav>
                 <ul>
                     <li>
-                        <Link>Home</Link>
+                        <Link to={'home'}>Home</Link>
                     </li>
                     <li>
                         <Link>About</Link>
                     </li>
                     <li>
+                        <Link to={'stack'}>Stack</Link>
+                    </li>
+                    <li>
                         <Link>Projects</Link>
                     </li>
                     <li>
-                        <Link>Contact</Link>
+                        <Link to={'contact'}>Contact</Link>
                     </li>
                 </ul>
             </nav>
