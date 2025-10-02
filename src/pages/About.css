@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+.about-container {
+  font-family: 'ABeeZee', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 4rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.about-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-section.reverse {
+  grid-template-columns: 1fr 1fr;
+  direction: rtl; /* invierte orden visual */
+}
+
+.about-section.reverse .about-text {
+  direction: ltr; /* corrige texto */
+}
+
+.about-text h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 280px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}

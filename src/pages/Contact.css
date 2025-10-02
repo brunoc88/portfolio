@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+.contact-container {
+  font-family: 'ABeeZee', sans-serif;
+  background-color: #0a0a0a;
+  color: white;
+  padding: 4rem 6rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-container h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-item img {
+  width: 32px;
+  height: 32px;
+}
+
+.contact-item span,
+.contact-item a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}

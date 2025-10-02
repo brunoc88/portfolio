@@ -1,28 +1,17 @@
 import { NavLink as Link } from "react-router-dom"
+import './NavBar.css'
 
 const NavBar = () => {
     return (
-        <div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to={'home'}>Home</Link>
-                    </li>
-                    <li>
-                        <Link>About</Link>
-                    </li>
-                    <li>
-                        <Link to={'stack'}>Stack</Link>
-                    </li>
-                    <li>
-                        <Link>Projects</Link>
-                    </li>
-                    <li>
-                        <Link to={'contact'}>Contact</Link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav className="navbar">
+            <ul className="nav-list">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/stack">Stack</Link></li>
+                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
+            </ul>
+        </nav>
     )
 }
 

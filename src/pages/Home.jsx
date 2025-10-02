@@ -7,19 +7,20 @@ const Home = () => {
                 <div className="home-image">
                     <img src="/yo.jpg" alt="Bruno" />
                 </div>
-                <div className="home-text">
+                <div className="home-content">
                     <p>
                         ¡Hola! Soy Bruno 👋 <br/>
-                        Bienvenido a mi portafolio como desarrollador. Aquí quiero compartirte un poco sobre mí, mi recorrido en programación y los proyectos que he estado construyendo.
+                        Bienvenido a mi portafolio como desarrollador. <br/>
+                        Aquí quiero compartirte un poco sobre mí, mi recorrido en programación y los proyectos que he estado construyendo.
                     </p>
-                </div>
-                <div className="home-buttons">
-                    <button className="btn-primary">Comenzar</button>
-                    <button className="btn-secondary">Salir</button>
+                    <div className="home-buttons">
+                        <button className="btn">Comenzar</button>
+                        <button className="btn">Salir</button>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Home
+export default Home;

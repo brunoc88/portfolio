@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+.navbar {
+    background-color: #000; /* fondo negro */
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 4rem; /* espacio entre enlaces */
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1.5rem; /* tamaño similar al Home */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #FFD600; /* amarillo al hover */
+}

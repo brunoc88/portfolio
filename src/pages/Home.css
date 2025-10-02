@@ -6,53 +6,56 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000; /* fondo negro */
+    background-color: #000;
+    overflow: hidden; /* asegura que no aparezca scroll */
 }
 
 .home-card {
     display: flex;
-    gap: 2rem;
-    background-color: #111;
-    padding: 2rem;
-    border-radius: 8px;
     align-items: center;
+    background-color: #111;
+    padding: 3rem; /* reducido */
+    border-radius: 20px;
     color: white;
+    max-width: 1200px; /* menos ancho */
+    gap: 2.5rem; /* reducido */
 }
 
 .home-image img {
-    width: 200px;
-    height: auto;
-    border-radius: 8px;
+    width: 350px; /* reducido */
+    border-radius: 15px;
 }
 
-.home-text p {
-    max-width: 400px;
-    line-height: 1.5;
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem; /* reducido */
+}
+
+.home-content p {
+    font-size: 1.6rem; /* reducido */
+    line-height: 1.6;
+    max-width: 750px;
 }
 
 .home-buttons {
     display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
+    gap: 2rem;
 }
 
-.btn-primary, .btn-secondary {
-    padding: 0.5rem 1.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: 'ABeeZee', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-}
-
-.btn-primary {
-    background-color: #FFD600; /* amarillo */
-    color: #000;
-}
-
-.btn-secondary {
+.btn {
     background-color: #FFD600;
-    opacity: 0.8;
-    color: #000;
+    border: none;
+    padding: 1.2rem 3rem; /* reducido */
+    border-radius: 18px;
+    font-size: 1.4rem; /* reducido */
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ffdd33;
 }
