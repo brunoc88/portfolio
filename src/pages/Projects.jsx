@@ -12,10 +12,10 @@ const Projects = () => {
           <p>Red Social de Resident Evil</p>
         </Link>
 
-        <a href="https://github.com/brunoc88/sistema-alumnos" target="_blank" rel="noopener noreferrer">
+        <Link to={'/projects/sistema-alumnos'}>
           <img src="/sisalu.png" alt="Sistema de alumnos" />
           <p>Sistema de alumnos</p>
-        </a>
+        </Link>
       </div>
 
       <h3>Otros proyectos realizados</h3>

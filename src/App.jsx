@@ -6,6 +6,8 @@ import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
 import RedSocial from "./pages/RedSocial"
+import SistemaAlumnos from "./pages/SistemaAlumno"
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
         <Route path="projects/">
           <Route path="" element={<Projects/>}/>
           <Route path="red-social" element={<RedSocial/>}/>
+          <Route path="sistema-alumnos" element={<SistemaAlumnos/>}/>
         </Route>
       </Route>
     </Routes>
