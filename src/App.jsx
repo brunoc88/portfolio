@@ -5,6 +5,7 @@ import Stack from "./pages/Stack"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Projects from "./pages/Projects"
+import RedSocial from "./pages/RedSocial"
 
 const App = () => {
   return (
@@ -14,7 +15,10 @@ const App = () => {
         <Route path="contact" element={<Contact/>}/>
         <Route path="stack" element={<Stack/>}/>
         <Route path="about" element={<About/>}/>
-        <Route path="projects" element={<Projects/>}/>
+        <Route path="projects/">
+          <Route path="" element={<Projects/>}/>
+          <Route path="red-social" element={<RedSocial/>}/>
+        </Route>
       </Route>
     </Routes>
   )
