@@ -1,16 +1,20 @@
-# React + Vite
+# Portfolio de Bruno Cerutti
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es el portafolio personal de Bruno, desarrollador fullstack con experiencia en **Node.js, Express, bases de datos SQL y NoSQL**, y frontend con **React** y **Pug**. En este portafolio se muestran algunos de los proyectos desarrollados, así como habilidades técnicas y enlaces relevantes.
 
-Currently, two official plugins are available:
+🔗 **Sitio en vivo:** [portfolio-ten-opal-61.vercel.app](https://portfolio-ten-opal-61.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
 
-## React Compiler
+El portafolio está diseñado para mostrar:
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Experiencia y stack tecnológico.
+- Proyectos destacados con capturas y enlaces.
+- Información de contacto y enlaces a redes profesionales.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Hecha con React
+- Desplegada en Vercel
+
+
